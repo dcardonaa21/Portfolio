@@ -745,6 +745,7 @@ section {
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  max-width: fit-content;
 }
 
 .contact .info i {
@@ -1075,3 +1076,4 @@ section {
     padding-right: 20px 15px;
   }
 }
+
