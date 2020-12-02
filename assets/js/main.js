@@ -158,7 +158,7 @@
 
   // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
-    autoplay: true,
+    autoplay: false,
     dots: true,
     loop: true,
     items: 1
