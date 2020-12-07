@@ -293,7 +293,7 @@ section {
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  position: relative;
+  position: center;
   color: #173b6c;
 }
 
@@ -589,12 +589,61 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
-  margin-bottom: 20px;
+.services {
+  padding-bottom: 30px;
 }
 
-.services .icon {
+.services .count-box {
+  padding: 30px;
+  width: 100%;
+}
+
+.services .count-box i {
+  display: block;
+  font-size: 44px;
+  color: #149ddd;
   float: left;
+}
+
+.services .count-box span {
+  font-size: 48px;
+  line-height: 40px;
+  display: block;
+  font-weight: 700;
+  color: #050d18;
+  margin-left: 60px;
+}
+
+.services .count-box p {
+  padding: 15px 0 0 0;
+  margin: 0 0 0 60px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #122f57;
+}
+
+.services .count-box a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #122f57;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: ease-in-out 0.3s;
+}
+
+.services .count-box a:hover {
+  color: #1f5297;
+}
+
+
+
+.services .icon-box {
+  /* margin-bottom: 20px; */
+/* } */
+
+/* .services .icon {
+  float: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -603,10 +652,10 @@ section {
   background: #149ddd;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
-}
+  border: 1px solid #149ddd; */
+/* } */
 
-.services .icon i {
+/* .services .icon i {
   color: #fff;
   font-size: 24px;
 }
@@ -616,10 +665,10 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd;
-}
+  color: #149ddd; */
+/* } */
 
-.services .title {
+/* .services .title {
   margin-left: 80px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -634,11 +683,18 @@ section {
   color: #149ddd;
 }
 
-.services .description {
+/* .services .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
-}
+} */
+
+/* .borderless table {
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+} */ 
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -738,13 +794,14 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
+  align: center;
 }
 
 .contact .info {
   padding: 30px;
   background: #fff;
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 24px 0 rgba(117, 117, 117, 0.12);
   max-width: fit-content;
 }
 
