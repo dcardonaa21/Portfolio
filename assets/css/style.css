@@ -638,9 +638,9 @@ section {
 
 
 
-.services .icon-box {
-  /* margin-bottom: 20px; */
-/* } */
+.services .icon-box { 
+  margin-bottom: 20px;
+}
 
 /* .services .icon {
   float: center;
@@ -699,11 +699,11 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonial-item {
+/* .testimonials .testimonial-item {
   box-sizing: content-box;
   text-align: center;
   min-height: 320px;
-}
+} */
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
@@ -1104,27 +1104,28 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  padding: 15px;
-  color: #f4f6fd;
+  padding: 5px;
+  color: #17181a;
   font-size: 14px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  position: relative;
+  left: 650px;
+  bottom: 5px;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  
 }
 
 #footer .copyright {
   text-align: center;
+  
 }
 
 #footer .credits {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #eaebf0;
-}
+  color: #17181a;
+ }
 
 @media (max-width: 1199px) {
   #footer {
