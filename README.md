@@ -1,11 +1,7 @@
-# Bienvenidos a Portfolio v 2 🚀
-Una nueva plantilla para que la utilicen para darse a conocer a nivel profesional, y porque no, para que practiquen y aprendan cada vez más!
+# Welcome to my portfolio 🚀
+You can see some of the most relevant projects I've worked on and my studies.
 
-## Sientanse en la capacidad de 🛠️⚙️:
-* Editarla con su información
-* Personalizarla con sus imágenes y colores
-* Darle vida en general!
+## You can contact me if your interested in my services:
+*e-mail:* dcardonaa2111@gmail.com
 
-## Recurso gratuito
----
-⌨️ con ❤️ por [JDR](https://github.com/jdreina7) :facepunch:😊
+
